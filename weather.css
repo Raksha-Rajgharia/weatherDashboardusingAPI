@@ -1,0 +1,296 @@
+.sidebar {
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    /* left: 0; */
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 16px;
+    box-shadow: 10px 10px 5px rgb(209, 205, 205);
+  }
+  
+  .card:hover {
+    border: 2px solid red;
+  }
+  
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    /* display: block; */
+  }
+  
+  .sidebar a img:hover {
+    color: #dd0404;
+    border-color: #ee0a0a;
+    opacity: 0.7 !important;
+    filter: alpha(opacity=100) !important;
+    /* For IE8 and earlier */
+    box-shadow: 0 0 0px #e00d0d !important;
+  }
+  
+  .sidebar img {
+    height: 22px;
+    width: 22px;
+    margin-left: 15px;
+    margin-bottom: 80px;
+    /* margin: auto;
+   margin-top: 200px;
+   margin-left: 10px;
+   padding: 10px; */
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .col-4 a img {
+    height: 24px;
+    width: 24px;
+  }
+  
+  .col-6 {
+    margin-top: 20px;
+  }
+  
+  .col-6 input[type=text] {
+    border-radius: 20px;
+    background-color: rgb(226, 220, 220);
+    border: none;
+  }
+  
+  .nav-item dropdown {
+    margin-left: 20px;
+  }
+  
+  .form-inline li {
+    list-style-type: none;
+  }
+  
+  
+  /* .col-7{
+  box-shadow:10px 10px 5px rgb(209, 205, 205) ;
+  }
+  .col-4{
+  box-shadow:10px 10px 5px rgb(209, 205, 205) ;
+  
+  } */
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  body {
+    font-family: Verdana, sans-serif;
+  }
+  
+  .month {
+    padding: 2px;
+    width: 100%;
+  }
+  
+  .month ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+  .month .prev {
+    float: left;
+    padding-top: 10px;
+  }
+  
+  .month .next {
+    float: right;
+    padding-top: 10px;
+  }
+  
+  .weekdays {
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  .weekdays li {
+    display: inline-block;
+    width: 12.6%;
+    color: #666;
+    text-align: center;
+    font-size: 13px;
+  }
+  
+  .days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+    border-radius: 20px;
+  }
+  
+  .days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 12.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #777;
+  }
+  
+  .days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+  }
+  
+  
+  /* Add media queries for smaller screens */
+  
+  @media screen and (max-width:720px) {
+    .weekdays li,
+    .days li {
+        width: 13.1%;
+    }
+  }
+  
+  @media screen and (max-width: 420px) {
+    .weekdays li,
+    .days li {
+        width: 12.5%;
+    }
+    .days li .active {
+        padding: 2px;
+    }
+  }
+  
+  @media screen and (max-width: 290px) {
+    .weekdays li,
+    .days li {
+        width: 12.2%;
+    }
+  }
+  
+  .button {
+    background-color: rgb(247, 36, 71);
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+  }
+  
+  .button5 {
+    border-radius: 100%;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  /* Float four columns side by side */
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  
+  /* Remove extra left and right margins, due to padding */
+  
+  .row {
+    margin: 0 -5px;
+  }
+  
+  
+  /* Clear floats after the columns */
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  /* Responsive columns */
+  
+  @media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+  }
+  
+  
+  /* Style the counter cards */
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: left;
+    background-color: #f8f0e3;
+    border-radius: 12%;
+  }
+  
+  .card:hover {
+    border-color: rgb(235, 111, 29)(255, 136, 0);
+  }
+  
+  .col-12 a img {
+    width: 700px;
+    height: 180px;
+  }
+  
+  .col-10 a img {
+    height: 450px;
+    width: 400px;
+  }
+  
+  .left {
+    text-align: left;
+    font-size: 12px;
+  }
+  
+  .col-9 p {
+    font-size: 12px;
+  }
+  
+  
+  /* .col-9 img{
+  height: 22px;
+  width: 22px;
+  } */
+  
+  .col-3 img {
+    height: 24px;
+    width: 24px;
+  }
+  
+  .week {
+    border-bottom: 2px solid black;
+  }
+  
+  .menuborder {
+    border-left: 5px solid rgb(202, 121, 121);
+  }
